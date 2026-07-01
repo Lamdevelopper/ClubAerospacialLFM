@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="es-419">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Landing page del Club Aeroespacial LFM: CanSat, diseno, pruebas, cronologia del Mundial de CanSats y contacto."
+    />
+    <title>Club Aeroespacial LFM | CanSat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Inicio Club Aeroespacial LFM">
+        <img src="assets/logo.svg" alt="" class="brand__logo" />
+        <span class="brand__text">Club Aeroespacial LFM</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navegacion principal" data-nav>
+        <a href="#club">Club</a>
+        <a href="#cansat">CanSat</a>
+        <a href="#timeline">Cronologia</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contacto" class="nav-cta">Unirme</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-label="Club Aeroespacial LFM">
+        <div class="hero__media" aria-hidden="true">
+          <img src="assets/images/hero-iss.jpg" alt="" />
+          <div class="hero__shade"></div>
+        </div>
+
+        <div class="hero__content">
+          <p class="eyebrow">CanSat / Diseno / Exploracion</p>
+          <h1>Construimos tecnologia para tocar el cielo.</h1>
+          <p class="hero__lead">
+            Somos el Club Aeroespacial LFM: un equipo escolar que disena, programa y prueba un CanSat para
+            aprender ingenieria real desde el laboratorio hasta el lanzamiento.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#contacto">Quiero participar</a>
+            <a class="button button--ghost" href="#cansat">Ver el CanSat</a>
+          </div>
+        </div>
+
+        <div class="hero__status" aria-label="Resumen del proyecto">
+          <span>01</span>
+          <strong>Equipo en formacion</strong>
+          <small>Diseno, electronica, codigo, pruebas y comunicacion.</small>
+        </div>
+
+        <a class="scroll-cue" href="#club" aria-label="Bajar a la descripcion del club">
+          <span></span>
+          Scroll
+        </a>
+      </section>
+
+      <section class="section intro" id="club">
+        <div class="section__heading reveal">
+          <p class="eyebrow">Que hacemos</p>
+          <h2>Un club para aprender aeroespacial haciendo.</h2>
+        </div>
+
+        <div class="intro__grid">
+          <article class="feature reveal">
+            <span class="feature__index">01</span>
+            <h3>Disenamos</h3>
+            <p>
+              Modelamos estructuras, carcasas y mecanismos para proteger el CanSat durante pruebas,
+              despliegue y recuperacion.
+            </p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__index">02</span>
+            <h3>Programamos</h3>
+            <p>
+              Integramos sensores, telemetria y registro de datos para convertir cada prueba en aprendizaje
+              medible.
+            </p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__index">03</span>
+            <h3>Probamos</h3>
+            <p>
+              Iteramos con prototipos, simulaciones, caidas controladas y revisiones tecnicas antes de competir.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cansat" id="cansat">
+        <div class="cansat__visual reveal">
+          <div class="device">
+            <div class="device__top"></div>
+            <div class="device__body">
+              <span class="chip chip--one"></span>
+              <span class="chip chip--two"></span>
+              <span class="chip chip--three"></span>
+            </div>
+            <div class="device__ring"></div>
+          </div>
+          <p class="visual-note">Aqui va el render CAD o foto del prototipo real.</p>
+        </div>
+
+        <div class="cansat__copy reveal">
+          <p class="eyebrow">Nuestro CanSat</p>
+          <h2>Un satelite en miniatura con mision completa.</h2>
+          <p>
+            El CanSat concentra en el tamano de una lata los retos de una mision aeroespacial:
+            estructura ligera, sensores, energia, comunicaciones, software embarcado y recuperacion.
+          </p>
+
+          <div class="spec-list" aria-label="Areas del CanSat">
+            <div>
+              <span>CAD</span>
+              <strong>Estructura modular</strong>
+            </div>
+            <div>
+              <span>Datos</span>
+              <strong>Telemetria y sensores</strong>
+            </div>
+            <div>
+              <span>Vuelo</span>
+              <strong>Descenso controlado</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timeline" id="timeline">
+        <div class="section__heading reveal">
+          <p class="eyebrow">Mundial de CanSats</p>
+          <h2>De una idea escolar a una mision completa.</h2>
+        </div>
+
+        <ol class="timeline__list">
+          <li class="timeline__item reveal">
+            <span>01</span>
+            <div>
+              <h3>Concepto</h3>
+              <p>Equipos estudiantiles reciben una mision y convierten requisitos tecnicos en arquitectura.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span>02</span>
+            <div>
+              <h3>Diseno</h3>
+              <p>Se documentan CAD, electronica, software, pruebas, presupuesto y gestion de riesgos.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span>03</span>
+            <div>
+              <h3>Construccion</h3>
+              <p>El prototipo se fabrica, se calibra y se somete a revisiones antes del evento.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span>04</span>
+            <div>
+              <h3>Lanzamiento</h3>
+              <p>El CanSat ejecuta su mision, transmite datos y demuestra que el sistema resiste condiciones reales.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span>05</span>
+            <div>
+              <h3>Reporte final</h3>
+              <p>El equipo defiende resultados, decisiones de ingenieria y aprendizajes frente a jueces.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section gallery" id="galeria">
+        <div class="section__heading reveal">
+          <p class="eyebrow">Fotos y proyecto</p>
+          <h2>La parte que hace que la gente quiera entrar.</h2>
+        </div>
+
+        <div class="gallery__grid">
+          <figure class="gallery-card gallery-card--wide reveal">
+            <img src="assets/images/cansat-competition-2024.jpg" alt="Equipo ganador en una competencia internacional CanSat 2024" />
+            <figcaption>Referencia del ambiente competitivo CanSat.</figcaption>
+          </figure>
+          <figure class="gallery-card gallery-card--placeholder reveal">
+            <div></div>
+            <figcaption>Foto del equipo LFM en laboratorio.</figcaption>
+          </figure>
+          <figure class="gallery-card gallery-card--placeholder reveal">
+            <div></div>
+            <figcaption>Render CAD o close-up del CanSat.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section contact" id="contacto">
+        <div class="contact__inner reveal">
+          <p class="eyebrow">Unete al equipo</p>
+          <h2>Si te interesan los cohetes, sensores, diseno o programacion, aqui hay lugar.</h2>
+          <p>
+            Pasa al club con ganas de aprender. No necesitas saberlo todo: necesitas curiosidad,
+            constancia y ganas de construir algo que pueda volar.
+          </p>
+
+          <div class="contact__actions">
+            <a class="button button--primary" href="mailto:club.aeroespacial@lfm.edu.mx">Escribir al club</a>
+            <a class="button button--ghost" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#inicio" aria-label="Inicio Club Aeroespacial LFM">
+        <img src="assets/logo.svg" alt="" class="brand__logo" />
+        <span class="brand__text">Club Aeroespacial LFM</span>
+      </a>
+      <p>Imagen hero: NASA. Imagen competencia: DVIDS / U.S. Naval Research Laboratory / AAS.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
