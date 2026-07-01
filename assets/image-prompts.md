@@ -1,7 +1,7 @@
 # Prompts para ChatGPT Image 2.0
 
 Usa estos prompts para generar las imagenes finales del sitio web del Club Aeroespacial LFM.
-Guarda los resultados en `assets/images/` y reemplaza las imagenes o placeholders indicados.
+Guarda los resultados en `assets/images/` y reemplaza las imagenes indicadas si quieres iterar el estilo visual.
 
 ## 1. Fondo Hero / Espacio
 
@@ -41,7 +41,7 @@ Guarda los resultados en `assets/images/` y reemplaza las imagenes o placeholder
 
 ## Fotos que necesito del club
 
-- Foto horizontal del equipo en laboratorio o taller: reemplaza el placeholder de galeria.
+- Foto horizontal del equipo en laboratorio o taller: puede reemplazar o complementar `team-work.png`.
 - Render CAD horizontal o vertical del CanSat: reemplaza el bloque visual de la seccion CanSat.
 - Foto close-up de electronica, sensores o prototipo: buena para una tercera tarjeta de galeria.
 - Foto de prueba, caida o lanzamiento: ideal para redes y para reforzar el CTA del Linktree.
